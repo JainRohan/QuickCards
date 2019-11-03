@@ -1,14 +1,13 @@
 import os, io
 from google.cloud import vision
-from google.cloud.vision import types
-import pandas as pd
+
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'ServiceAccountToken.json'
 client = vision.ImageAnnotatorClient()
 
-FOLDER_PATH = r'<Folder Path>'
+# FOLDER_PATH = r'<Folder Path>'
 IMAGE_FILE = '<image file name>'
-FILE_PATH = os.path.join(FOLDER_PATH, IMAGE_FILE)
+FILE_PATH = os.path.join(IMAGE_FILE)
 
 with io.open(FILE_PATH, 'rb') as image_file:
     content = image_file.read()

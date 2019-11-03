@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0cdce8-d913-4169-b784-6ae909831b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/UB_HACKZ_Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UB_HACKZ_Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keys_final.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_test1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_test2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_test3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_algo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_edit.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algoithm_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm_Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fucking_algorithm_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/fucking_algorithm_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm_Notes" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm_Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fucking_algorithm_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_algorithm_vision.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_dont_fucking_share.json" beforeDir="false" afterPath="$PROJECT_DIR$/main_key.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_key_&amp;_value_pairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_key_&amp;_value_pairs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trail_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/trail_3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,35 +25,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fucking_algorithm_testing.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_algo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test4.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img.jpeg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm_Notes">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keys_final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="-92">
+              <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,8 +66,15 @@
       <list>
         <option value="$PROJECT_DIR$/Algoithm_Notes" />
         <option value="$PROJECT_DIR$/Requirements.txt" />
+        <option value="$PROJECT_DIR$/trail_3.py" />
         <option value="$PROJECT_DIR$/Algorithm_Notes" />
+        <option value="$PROJECT_DIR$/key_value_pairs" />
+        <option value="$PROJECT_DIR$/test_file.txt" />
         <option value="$PROJECT_DIR$/fucking_algorithm_testing.py" />
+        <option value="$PROJECT_DIR$/read_key_&amp;_value_pairs.py" />
+        <option value="$PROJECT_DIR$/new_algo.py" />
+        <option value="$PROJECT_DIR$/first_algorithm_vision.py" />
+        <option value="$PROJECT_DIR$/keys_final.py" />
       </list>
     </option>
   </component>
@@ -116,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.keys_final">
     <configuration name="fucking_algorithm_testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UB_HACKZ_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +143,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fucking_algorithm_testing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_algorithm_vision.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,8 +152,80 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="keys_final" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UB_HACKZ_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keys_final.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="new_algo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UB_HACKZ_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_algo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_key_&amp;_value_pairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="UB_HACKZ_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_key_&amp;_value_pairs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.fucking_algorithm_testing" />
+      <item itemvalue="Python.read_key_&amp;_value_pairs" />
+      <item itemvalue="Python.new_algo" />
+      <item itemvalue="Python.keys_final" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.keys_final" />
+        <item itemvalue="Python.new_algo" />
+        <item itemvalue="Python.read_key_&amp;_value_pairs" />
         <item itemvalue="Python.fucking_algorithm_testing" />
       </list>
     </recent_temporary>
@@ -158,10 +244,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="796" height="900" extended-state="6" />
+    <frame x="0" y="0" width="820" height="900" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25935483" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25907385" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -169,7 +255,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.46144578" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -187,14 +273,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/key_dont_fucking_share.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bio_notes_test_1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/test2.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trail_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/csc148_alt/UB_HACKZ_Algorithm/lib/python3.8/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="2127" selection-start-line="2127" selection-end-line="2127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm_Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key_and_value_pairs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key_value_pairs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_key_&amp;_value_pairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_test2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_algorithm_vision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_algo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img.png">
       <provider selected="true" editor-type-id="images" />
@@ -202,20 +368,30 @@
     <entry file="file://$PROJECT_DIR$/img.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm_Notes">
+    <entry file="file://$PROJECT_DIR$/main_key.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_file.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fucking_algorithm_testing.py">
+    <entry file="file://$PROJECT_DIR$/text_edit.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keys_final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

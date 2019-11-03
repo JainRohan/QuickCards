@@ -9,3 +9,5 @@ current scipt to make the algo identify between the WORD and the EXPLANATION.
 
 
 Differentiate between the key(the word) and the
+
+4. In the read_key_&_value_pairs.py we need to go through the key_value_pairs.txt
