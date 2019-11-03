@@ -1,5 +1,7 @@
 import io
 import os
+import pandas as pd
+
 from PIL import Image, ImageDraw
 from enum import Enum
 
@@ -22,7 +24,7 @@ def main():
         'key_dont_fucking_share.json')
 
     # The name of the image file to annotate
-    file_name = os.path.abspath('img.png')
+    file_name = os.path.abspath('test6.jpg')
 
     # Loads the image into memory
     with io.open(file_name, 'rb') as image_file:
@@ -36,11 +38,15 @@ def main():
     document = response.full_text_annotation
 
     bounds = get_document_bounds(response, FeatureType.PARA, document)
-    img = draw_boxes(image, bounds, 'yellow')
+
+    # para = get_document_bounds(response, FeatureType.BLOCK, document)
+    img = draw_boxes(image, bounds, 'red')
+    # img = draw_boxes(img, para, 'yellow')
+
     img.show()
 
 
-def draw_boxes(image, bounds, color, width=5):
+def draw_boxes(image, bounds, color, width=4):
     draw = ImageDraw.Draw(image)
     for bound in bounds:
         draw.line([
@@ -49,6 +55,8 @@ def draw_boxes(image, bounds, color, width=5):
             bound.vertices[2].x, bound.vertices[2].y,
             bound.vertices[3].x, bound.vertices[3].y,
             bound.vertices[0].x, bound.vertices[0].y], fill=color, width=width)
+        for each in bounds:
+            pass
     return image
 
 
@@ -63,9 +71,9 @@ def get_document_bounds(response, feature, document):
                     bounds.append(paragraph.bounding_box)
                 for word in paragraph.words:
                     for symbol in word.symbols:
-                        if (feature == FeatureType.SYMBOL):
+                        if feature == FeatureType.SYMBOL:
                             bounds.append(symbol.bounding_box)
-                    if (feature == FeatureType.WORD):
+                    if feature == FeatureType.WORD:
                         bounds.append(word.bounding_box)
     return bounds
 

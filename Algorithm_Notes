@@ -4,3 +4,8 @@ Algorithm Discussion:
 common area amongst them.
 So we need to use the the google vision API where the 2 boxes are formed. However, need to improve the
 current scipt to make the algo identify between the WORD and the EXPLANATION.
+
+2. Croping the image
+
+
+Differentiate between the key(the word) and the
