@@ -164,7 +164,7 @@ def get_document_bounds(feature, document):
                         bounds.append((word.bounding_box, txt))
     return bounds
 
-
+#
 # def get_document_bounds(feature, document):
 #     bounds = []
 #     for i, page in enumerate(document.pages):
