@@ -12,7 +12,7 @@ from enum import Enum
 from google.cloud import vision
 from google.cloud.vision import types
 
-FUCKING_EPSILON = 20
+EPSILON = 20
 
 
 class FeatureType(Enum):
@@ -114,12 +114,12 @@ def get_key_value(block_bounds, word_bounds):
         lowest_y = 9999999999
 
         for word in word_bounds:
-            if word.vertices[0].y < lowest_y and y1 - FUCKING_EPSILON <= word.vertices[0].y <= y2 + FUCKING_EPSILON:
+            if word.vertices[0].y < lowest_y and y1 - EPSILON <= word.vertices[0].y <= y2 + EPSILON:
                 lowest_y = word.vertices[0].y
 
         for word in word_bounds:
             if x1 <= word.vertices[0].x <= x2 and y1 <= word.vertices[0].y <= y2:
-                if lowest_y - FUCKING_EPSILON <= word.vertices[0].y <= lowest_y + FUCKING_EPSILON:
+                if lowest_y - EPSILON <= word.vertices[0].y <= lowest_y + EPSILON:
                     words[0].append(word)
                 else:
                     words[1].append(word)
